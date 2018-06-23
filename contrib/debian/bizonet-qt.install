@@ -1,0 +1,6 @@
+usr/local/bin/bizonet-qt usr/bin
+share/pixmaps/bizonet32.xpm usr/share/pixmaps
+share/pixmaps/bizonet16.xpm usr/share/pixmaps
+share/pixmaps/bizonet128.png usr/share/pixmaps
+debian/bizonet-qt.desktop usr/share/applications
+debian/bizonet-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=bizonet
+Comment=bizonet P2P Cryptocurrency
+Comment[fr]=bizonet, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=bizonet, eşten eşe kriptografik sanal para birimi
+Exec=bizonet-qt %u
+Terminal=false
+Type=Application
+Icon=bizonet128
+MimeType=x-scheme-handler/bizonet;
+Categories=Office;Finance;

@@ -1,0 +1,3 @@
+debian/manpages/bizonetd.1
+debian/manpages/bizonet.conf.5
+debian/manpages/bizonet-cli.1

@@ -1,0 +1,22 @@
+[Unit]
+Description=bizonet's distributed currency daemon
+After=network.target
+
+[Service]
+User=bizonetcore
+Group=bizonetcore
+
+Type=forking
+PIDFile=/var/lib/bizonetd/bizonetd.pid
+ExecStart=/usr/bin/bizonetd -daemon -pid=/var/lib/bizonetd/bizonetd.pid \
+-conf=/etc/bizonetcore/bizonet.conf -datadir=/var/lib/bizonetd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
